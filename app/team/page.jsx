@@ -8,6 +8,7 @@ import {
   CardDescription,
 } from "@/components/ui/card";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const teamMembers = [
   {
@@ -117,6 +118,7 @@ export default function Team() {
           </section>
         </div>
       </main>
+      <Footer />
     </>
   );
 }

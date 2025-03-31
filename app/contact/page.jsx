@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import Footer from "@/components/Footer";
 
 export default function Contact() {
   const handleSubmit = async (e) => {
@@ -174,6 +175,7 @@ export default function Contact() {
           </form>
         </div>
       </main>
+      <Footer />
     </>
   );
 }
