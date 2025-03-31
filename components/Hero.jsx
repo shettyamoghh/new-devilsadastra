@@ -21,8 +21,8 @@ const Hero = () => {
           Welcome to Devils Ad Astra
         </h1>
         <p className="text-2xl text-white max-w-4xl mx-auto mb-8 drop-shadow">
-          A student-led club dedicated to exploring the frontiers of space
-          travel and innovation.
+          A student-led club at ASU dedicated to exploring space travel and
+          innovation
         </p>
         <Link
           href="/about"

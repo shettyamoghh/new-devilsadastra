@@ -15,7 +15,7 @@ export default function About() {
               About Devils Ad Astra
             </h1>
             <p className="mt-4 text-lg text-white">
-              Empowering students to explore the cosmos.
+              Empowering students to explore the cosmos
             </p>
           </header>
 
@@ -24,12 +24,12 @@ export default function About() {
             <div className="mt-10 flex justify-center">
               <div className="space-y-6 max-w-lg">
                 <p className="text-lg text-white">
-                  Devils Ad Astra is a student-led club dedicated to exploring
-                  the frontiers of space travel and innovation. Our mission is
-                  to inspire, educate, and empower the next generation of space
-                  enthusiasts by providing opportunities for hands-on projects,
-                  collaborations with industry experts, and participation in
-                  cutting-edge research.
+                  Devils Ad Astra is a student-led club at Arizona State
+                  University, dedicated to exploring the frontiers of space
+                  travel and innovation. Our mission is to inspire, educate, and
+                  empower the next generation of space enthusiasts by providing
+                  opportunities for hands-on projects, collaborations with
+                  industry experts, and participation in cutting-edge research.
                 </p>
                 <p className="text-lg text-white">
                   We design spacecraft models, organize events with renowned
