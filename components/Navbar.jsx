@@ -49,12 +49,12 @@ export default function Navbar() {
           >
             About
           </Link>
-          <Link
+          {/* <Link
             href="/projects"
             className="text-lg font-medium text-white transition-colors hover:text-gray-300"
           >
             Projects
-          </Link>
+          </Link> */}
           <Link
             href="/team"
             className="text-lg font-medium text-white transition-colors hover:text-gray-300"
@@ -92,13 +92,13 @@ export default function Navbar() {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               href="/projects"
               onClick={() => setMobileMenuOpen(false)}
               className="text-lg font-medium text-white transition-colors hover:text-gray-300"
             >
               Projects
-            </Link>
+            </Link> */}
             <Link
               href="/team"
               onClick={() => setMobileMenuOpen(false)}
