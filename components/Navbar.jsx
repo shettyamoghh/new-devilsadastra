@@ -11,7 +11,14 @@ export default function Navbar() {
             alt="Devils Ad Astra Logo"
             className="h-10 w-10"
           />
-          <span className="text-2xl font-bold text-white">Devils Ad Astra</span>
+          <Link
+            href="/"
+            className="text-lg font-medium text-white transition-colors hover:text-gray-300"
+          >
+            <span className="text-2xl font-bold text-white">
+              Devils Ad Astra
+            </span>
+          </Link>
         </div>
         <div className="flex space-x-8">
           <Link
