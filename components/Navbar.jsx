@@ -42,7 +42,7 @@ export default function Navbar() {
           </Link>
         </div>
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-8 items-center">
           <Link
             href="/about"
             className="text-lg font-medium text-white transition-colors hover:text-gray-300"
@@ -67,6 +67,12 @@ export default function Navbar() {
           >
             Contact
           </Link>
+          <Link
+            href="/apply"
+            className="px-4 py-2 bg-white text-black rounded transition-colors hover:bg-gray-200 font-bold"
+          >
+            Apply
+          </Link>
         </div>
         {/* Mobile Hamburger Menu */}
         <div className="md:hidden">
@@ -83,8 +89,8 @@ export default function Navbar() {
         </div>
       </div>
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-black/90">
-          <div className="container mx-auto px-6 py-4 flex flex-col space-y-4">
+        <div className="md:hidden bg-black">
+          <div className="container mx-auto px-6 py-4 flex flex-col space-y-4 items-center">
             <Link
               href="/about"
               onClick={() => setMobileMenuOpen(false)}
@@ -112,6 +118,13 @@ export default function Navbar() {
               className="text-lg font-medium text-white transition-colors hover:text-gray-300"
             >
               Contact
+            </Link>
+            <Link
+              href="/apply"
+              onClick={() => setMobileMenuOpen(false)}
+              className="px-4 py-2 bg-white text-black rounded transition-colors hover:bg-gray-200 text-lg font-bold"
+            >
+              Apply
             </Link>
           </div>
         </div>
